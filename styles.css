@@ -32,7 +32,7 @@ body::after {
     height: 100vh; 
 }
 
-#myVideo {
+#myvideo {
     position: absolute;
     right: 0;
     bottom: 0;
