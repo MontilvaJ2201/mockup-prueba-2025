@@ -34,6 +34,7 @@ window.addEventListener('scroll', function() {
         navbar.style.color = '#fff';
         header.style.backgroundColor = 'rgb(26, 112, 151)';
         header.style.color = '';
+        link.style.color = 'rgb(26, 112, 151)';
 
         var headerLinks = header.querySelectorAll('a, a i, a p');
         headerLinks.forEach(function(link) {
@@ -42,7 +43,7 @@ window.addEventListener('scroll', function() {
     } else {
         navbar.style.position = 'sticky';
         navbar.style.backgroundColor = 'transparent';
-        navbar.style.color = '#fff';
+        navbar.style.color = '#000';
         header.style.backgroundColor = 'rgb(26, 112, 151)';
         header.style.color = '';
 

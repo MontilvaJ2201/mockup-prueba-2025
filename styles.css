@@ -58,7 +58,7 @@ body::after {
 }
 
 .header a:hover {
-    transform: scale(1.5);
+    transform: scale(1.15);
 }
 
 .navbar {
@@ -248,7 +248,7 @@ body::after {
 
 .popular-card {
     border-radius: 15px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
     box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.1)
 }
 
